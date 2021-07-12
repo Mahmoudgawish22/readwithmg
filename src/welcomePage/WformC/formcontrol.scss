@@ -1,0 +1,26 @@
+#formc {
+    width: 85%;
+    margin:auto;
+    margin-bottom: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#formContent {
+    color: white;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    #formContent {
+        font-size: 15px;
+    }
+    #formc {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+ }

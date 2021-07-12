@@ -1,0 +1,14 @@
+.pslide {
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fa-dot-circle {
+    margin-right: 10px;
+}

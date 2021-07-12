@@ -1,0 +1,18 @@
+[ 
+    {
+        "firstName": "Mahmoud",
+        "secondName": "Gawish",
+        "admin": true,
+        "profile": "./iamges/DSC_0796.jpg",
+        "email": "mahmoudgawish11@gmail.com",
+        "password": "24680000",
+        "booksToRead": [],
+        "cart": [],
+        "likedarticles": [],
+        "bio": "",
+        "articlesMade": {},
+        "points": 0,
+        "commentsMade": [],
+        "address": ""
+    }
+]

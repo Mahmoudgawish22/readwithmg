@@ -1,0 +1,44 @@
+#sorttitle {
+    direction: rtl;
+    color: rgb(39, 48, 61);
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
+}
+#sortingoption {
+    margin: 60px auto;
+    padding: 20px;
+}
+.sortingbtn {
+    height: 400px;
+    width: 250px;
+    background-size: cover;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 30px;
+    margin-left: 5px;
+}
+#options {
+    display: flex;
+    justify-content: center;
+}
+#btn1 {
+    background-color: #10131a;
+}
+#btn2 {
+    background-color: #f75a27;
+}
+#btn3 {
+    background-color: #226286;
+}
+@media (max-width: 768px) {
+    .sortingbtn {
+        height: 200px;
+        width: 200px;
+    }
+ }

@@ -1,0 +1,101 @@
+#products0 {
+	width: 95%;
+	height: 500px;
+	border-radius: 5px;
+    margin: 90px auto;	
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#products1 {
+    width: 100%;
+	border-radius: 5px;
+    margin-top: 90px;	
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.sortingMethod {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #10131a;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 50%;
+    border-bottom:none;
+    border-left: none;
+    border-right: none;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.sortedProducts {
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    
+}
+.sorteditemimg {
+    height:200px;
+    width:150px;
+    border: 1px solid rgba(255, 255, 255,0.85);
+    border-radius: 5px;
+}
+.novel:hover {
+    animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    background-color: #f75a27;
+    border-radius: 5px;
+    .sorteditemimg {border: none;}
+}
+.story:hover {
+    animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    background-color: #226286;
+    border-radius: 5px;
+    .sorteditemimg {border: none;}
+}
+@keyframes scale-up-center {
+    0% {
+              transform: scale(1);
+    }
+    100% {
+              transform: scale(1.1);
+    }
+  }
+  .sorteditemdetails {
+    text-align: right;
+  }
+  .sorteditemtitle, .sorteditemdiscrb, .sorteditemlikes {
+    color: #ffffff;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    line-height: 15px;
+}
+.sorteditemlikes {
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px
+}
+.sorteditemdiscrb {
+    font-style: italic;
+    font-size: 10px;
+}
+@media (max-width: 850px) {
+
+  .sortedProducts {
+      grid-template-columns: 100%;
+  }
+}
+#sortingguide {
+    height: 80px;
+    width: 80px;
+}
+.sortedItems {
+    background-color: #10131a;
+    border-radius: 5px;
+}

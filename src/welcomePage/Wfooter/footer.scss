@@ -1,0 +1,15 @@
+#footer {
+    background-color: #212529;
+    width: 100%;
+    padding: 20px;
+}
+#footerlogo {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+}
+.footercontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

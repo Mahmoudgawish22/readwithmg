@@ -1,0 +1,36 @@
+#homepage {
+    width: 100%;
+    background-color: rgb(39, 48, 61);
+    overflow: hidden;
+  }
+#left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#right {
+  display: flex;
+  gap: 10px;
+}
+#rightleft {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+#showless {
+  width: 30%
+}
+@media (max-width: 850px) {
+  #rightleft {
+    flex-direction: column;
+  }
+  #right {
+    flex-direction: column;
+  }
+  #showless {
+    width: 100%
+  }
+}

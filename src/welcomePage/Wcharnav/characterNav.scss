@@ -1,0 +1,44 @@
+#char {
+    width: 85%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    margin-top: 2px;
+}
+.breif {
+    text-align: center;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    align-self: center;
+}
+.characterimg {
+    width: 200px;
+    height: 200px
+}
+.character {
+    display: flex;
+    margin: 10px;
+    width: 40%;
+    padding: 20px;
+    flex-grow: 1;
+}
+.character:hover {
+    background-color: #212529;
+}
+@media (max-width: 850px) {
+    #char {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .breif {
+        font-size: 12px;
+    }
+    .character {
+        width: 100%
+    }
+
+ }
