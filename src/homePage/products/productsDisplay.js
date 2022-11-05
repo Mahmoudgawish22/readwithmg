@@ -13,7 +13,7 @@ class ProductsDisplay extends React.Component {
             <div id='productsdisplay'>
                 <div style={{display:'flex',justifyContent:'space-between'}}>
                 <h5 id='productstitle'>Products | Trendy Novel and Story:-</h5>
-                <a href='/#products' className='btn btn-dark btn-sm'>See More!</a>
+                <a href='/readwithmg/#products' className='btn btn-dark btn-sm'>See More!</a>
                 </div>
                 <ScrollAnimation animateIn="slideInLeft" animateOnce='true'>
                 <ul id='products'>

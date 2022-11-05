@@ -33,9 +33,9 @@ class Header extends React.Component {
                 </div>
                 <div id='right-header'>
                 <ul id="nav-list">
-                  <li className='dis'><a class="nav-link" href="/#home" target="_self"><i class="fas fa-door-closed"></i> Home</a></li>
-                  <li className='dis'><a class="nav-link" href='#'  target="_self"><i class="fas fa-info-circle"></i> About</a></li>
-                  <li className='dis'><a class="nav-link" href="/#products" target="_self"><i class="fas fa-book"></i> Products</a></li>
+                  <li className='dis'><a class="nav-link" href="/readwithmg/#home" target="_self"><i class="fas fa-door-closed"></i> Home</a></li>
+                  <li className='dis'><a class="nav-link" href='/readwithmg/#'  target="_self"><i class="fas fa-info-circle"></i> About</a></li>
+                  <li className='dis'><a class="nav-link" href="/readwithmg/#products" target="_self"><i class="fas fa-book"></i> Products</a></li>
                   <li><Dropdown>
                     <Dropdown.Toggle role="button" id="dropdownMenuLink">
                       <img id='userPhoto' src={this.state.userInfo[1]} alt={this.state.userInfo[0]}/>
@@ -45,12 +45,12 @@ class Header extends React.Component {
                       <Dropdown.Item><i class="fab fa-opencart icons"></i> My Cart</Dropdown.Item>
                       <Dropdown.Item><i class="fas fa-book icons"></i>   My Books</Dropdown.Item>
                       <hr></hr>
-                      <Dropdown.Item href="/#home"><i class="fas fa-door-closed icons"></i> Home</Dropdown.Item>
-                      <Dropdown.Item href="#"><i class="fas fa-info-circle icons"></i> About</Dropdown.Item>
-                      <Dropdown.Item href="/#products"><i class="fas fa-book icons"></i> Products</Dropdown.Item>
+                      <Dropdown.Item href="/readwithmg/#home"><i class="fas fa-door-closed icons"></i> Home</Dropdown.Item>
+                      <Dropdown.Item href="/readwithmg/#"><i class="fas fa-info-circle icons"></i> About</Dropdown.Item>
+                      <Dropdown.Item href="/readwithmg/#products"><i class="fas fa-book icons"></i> Products</Dropdown.Item>
                       <Dropdown.Item><i class="fas fa-book icons"></i>   My Books</Dropdown.Item>
                       <hr></hr>
-                      <Dropdown.Item href="#"><i style={{color:'black',fontSize:'18px',marginRight:'4px'}} class="fas fa-sign-out-alt"></i> Sign Out</Dropdown.Item>
+                      <Dropdown.Item href="/readwithmg/#"><i style={{color:'black',fontSize:'18px',marginRight:'4px'}} class="fas fa-sign-out-alt"></i> Sign Out</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown></li>
                 </ul>
