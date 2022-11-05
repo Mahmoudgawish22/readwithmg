@@ -3,16 +3,14 @@ import logo from "../../iamges/books2.svg";
 import '../Wheader/subheader.scss';
 import "bootstrap/dist/css/bootstrap.min.css"
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 class SubHeader extends React.Component {
     constructor(props) {
         super(props);
-        this.handleClick = this.handleClick.bind(this);
 
     }
-    handleClick() {
 
-    }
     render() {
         return (
             <div id='header' className='container-fluid'>
@@ -23,7 +21,7 @@ class SubHeader extends React.Component {
                 <div id='right-header'>
                 <ul id="nav-list" style={{listStyle:'none'}}>
                   <li>
-                <a class="nav-link" style={{fontSize:'16px',display:'flex',alignItems:'center'}} onClick={this.handleClick} href='#sign' target="_self"><i style={{color:'white',fontSize:'18px',marginRight:'10px'}} class="fas fa-sign-in-alt"></i> Not Your First Visit?</a>
+                  <HashLink style={{fontSize:'16px',display:'flex',alignItems:'center'}} class="nav-link" to="#sign"><i style={{color:'white',fontSize:'18px',marginRight:'10px'}} class="fas fa-sign-in-alt"></i> Not Your First Visit?</HashLink>
                   </li>
                   </ul>
                   </div>

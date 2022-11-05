@@ -18,7 +18,7 @@ class UpComming extends React.Component {
                 <ScrollAnimation animateIn="slideInRight" animateOnce='true'>
                 <ul id='events'>
                     <li className='event'>
-                        <a href='#' className='eventlink'>
+                        <a  className='eventlink'>
                             <img className='eventimg' src={exp} alt='productx'/>
                             <div className='eventdetails'>
                             <h6 className='eventtitle'>Release of a novel</h6>
@@ -27,7 +27,7 @@ class UpComming extends React.Component {
                         </a>
                     </li>
                     <li className='event'>
-                        <a href='#' className='eventlink'>
+                        <a  className='eventlink'>
                             <img className='eventimg' src={exp2} alt='productx'/>
                             <div className='eventdetails'>
                             <h6 className='eventtitle'>El-Malaz Quiz</h6>

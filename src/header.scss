@@ -11,6 +11,24 @@
     padding: 8px;
     z-index: 5;
 }
+.btn-primary:hover {
+    background-color: transparent;
+    border: none;
+}
+.btn-primary:active {
+    background-color: transparent;
+    border: none;
+}
+.btn-primary:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: unset !important;
+}
+.btn-primary {
+    background-color: transparent !important;
+    border: none;
+    outline: unset;
+}
 #left-header {
     display: flex;
     flex-direction: row-reverse;

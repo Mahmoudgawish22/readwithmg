@@ -26,7 +26,7 @@ function Products(props) {
             </div>
                 <ul className='sortedProducts'>
                     <li className='sortedItems novel'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>البحث عن الملاذ</h4>
@@ -36,7 +36,7 @@ function Products(props) {
                         </a>
                     </li>
                     <li className='sortedItems story'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp2} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>بوق يوم الثلاثاء</h4>
@@ -46,7 +46,7 @@ function Products(props) {
                         </a>
                     </li>
                     <li className='sortedItems novel'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp3} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>أركان</h4>
@@ -56,7 +56,7 @@ function Products(props) {
                         </a>
                     </li>
                     <li className='sortedItems story'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp4} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>الأعمى وقصص أخرى</h4>
@@ -79,7 +79,7 @@ function Products(props) {
             </div>
                 <ul className='sortedProducts'>
                     <li className='sortedItems novel'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>البحث عن الملاذ</h4>
@@ -89,7 +89,7 @@ function Products(props) {
                         </a>
                     </li>
                     <li className='sortedItems novel'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp3} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>أركان</h4>
@@ -112,7 +112,7 @@ function Products(props) {
             </div>
                 <ul className='sortedProducts'>
                     <li className='sortedItems story'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp2} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>بوق يوم الثلاثاء</h4>
@@ -122,7 +122,7 @@ function Products(props) {
                         </a>
                     </li>
                     <li className='sortedItems story'>
-                        <a href='#' className='itemslink'>
+                        <a  className='itemslink'>
                             <img className='sorteditemimg' src={exp4} alt='productx'/>
                             <div className='sorteditemdetails'>
                             <h4 className='sorteditemtitle'>الأعمى وقصص أخرى</h4>

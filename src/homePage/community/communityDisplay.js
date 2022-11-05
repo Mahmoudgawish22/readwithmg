@@ -19,7 +19,7 @@ class CommunityDisplay extends React.Component {
                 <ScrollAnimation animateIn="slideInRight" animateOnce='true'>
                 <ul id='articles'>
                     <li className='article'>
-                        <a href='#' className='articlelink'>
+                        <a  className='articlelink'>
                             <img className='articleimg' src={exp} alt='productx'/>
                             <div className='articledetails'>
                             <h4 className='articletitle'>بين السعي والنتيجة</h4>
@@ -29,7 +29,7 @@ class CommunityDisplay extends React.Component {
                         </a>
                     </li>
                     <li className='article'>
-                        <a href='#' className='articlelink'>
+                        <a  className='articlelink'>
                             <img className='articleimg' src={exp2} alt='productx'/>
                             <div className='articledetails'>
                             <h4 className='articletitle'>ظل الإبداع</h4>
@@ -39,7 +39,7 @@ class CommunityDisplay extends React.Component {
                         </a>
                     </li>
                     <li className='article'>
-                        <a href='#' className='articlelink'>
+                        <a  className='articlelink'>
                             <img className='articleimg' src={exp3} alt='productx'/>
                             <div className='articledetails'>
                             <h4 className='articletitle'>إنيمي</h4>

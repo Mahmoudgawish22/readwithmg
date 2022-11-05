@@ -111,7 +111,7 @@ class AboveContent extends React.Component {
             <button id='new-quote' className="btn btn-dark" onClick={this.handleClick}>New Quote!</button>
             <div id='socialbuttons'>
             <a className="btn" href='twitter.com/intent/tweet' target='_blank' id='tweet-quote'><i style={{color:'#212529'}} class="fab fa-twitter"></i></a>
-            <a className="btn" href='#' target='_blank' id='post-quote'><i style={{color:'#212529'}} class="fab fa-facebook"></i></a>
+            <a className="btn"  target='_blank' id='post-quote'><i style={{color:'#212529'}} class="fab fa-facebook"></i></a>
             </div>
             </div>
             </div>
