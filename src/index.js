@@ -6,13 +6,15 @@ import Home from "./homepage"
 import Products from "./productspage"
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route} from "react-router-dom"
+import { HashRouter } from "react-router-dom";
+
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Route exact path='/' component={Welcome}/>
     <Route path='/home' component={Home}/>
     <Route path='/products' component={Products}/>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
