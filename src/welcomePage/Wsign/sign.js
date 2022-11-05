@@ -24,7 +24,7 @@ class Sign extends React.Component {
     }
     handleSubmit(e) {
         e.preventDefault();
-        window.open('/#home','_self');
+        window.open('/readwithmg/home','_self');
     }
     handleChange(e) {
         let val = e.target.value;
