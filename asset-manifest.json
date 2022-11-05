@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/readwithmg/static/css/main.1a4f637c.chunk.css",
+    "main.css": "/readwithmg/static/css/main.6bdf9459.chunk.css",
     "main.js": "/readwithmg/static/js/main.9ed8e59c.chunk.js",
     "main.js.map": "/readwithmg/static/js/main.9ed8e59c.chunk.js.map",
     "runtime-main.js": "/readwithmg/static/js/runtime-main.b645d67a.js",
@@ -12,7 +12,7 @@
     "static/js/3.e16fb58b.chunk.js.map": "/readwithmg/static/js/3.e16fb58b.chunk.js.map",
     "index.html": "/readwithmg/index.html",
     "static/css/2.d3c53340.chunk.css.map": "/readwithmg/static/css/2.d3c53340.chunk.css.map",
-    "static/css/main.1a4f637c.chunk.css.map": "/readwithmg/static/css/main.1a4f637c.chunk.css.map",
+    "static/css/main.6bdf9459.chunk.css.map": "/readwithmg/static/css/main.6bdf9459.chunk.css.map",
     "static/js/2.6ff11d73.chunk.js.LICENSE.txt": "/readwithmg/static/js/2.6ff11d73.chunk.js.LICENSE.txt",
     "static/media/1281229876.82565a19.svg": "/readwithmg/static/media/1281229876.82565a19.svg",
     "static/media/1410828541.89a410ab.svg": "/readwithmg/static/media/1410828541.89a410ab.svg",
@@ -65,7 +65,7 @@
     "static/js/runtime-main.b645d67a.js",
     "static/css/2.d3c53340.chunk.css",
     "static/js/2.6ff11d73.chunk.js",
-    "static/css/main.1a4f637c.chunk.css",
+    "static/css/main.6bdf9459.chunk.css",
     "static/js/main.9ed8e59c.chunk.js"
   ]
 }
